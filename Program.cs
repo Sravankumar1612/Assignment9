@@ -20,7 +20,7 @@ namespace Assignment9
             {
                 Console.WriteLine("Enter username ");
                 username = Console.ReadLine();
-                if (username.Length >= 6 && username.All(Char.IsLetter))
+                if (username.Length >= 6 )
                 {
                     Console.WriteLine("Enter email");
                     email = Console.ReadLine();
